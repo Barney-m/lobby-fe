@@ -1,0 +1,11 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// material-ui
+import * as Color from '@mui/material';
+
+declare module '@mui/material' {
+  interface Color {
+    0?: string;
+    A50?: string;
+    A800?: string;
+  }
+}
